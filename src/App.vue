@@ -16,7 +16,7 @@ import Footer from "./components/Footer.vue";
 <template>
   <Header />
   <Hero />
-  <Service1 />
+  <!-- <Service1 /> -->
   <Service2 />
   <Feature />
   <Pricing />
