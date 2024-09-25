@@ -61,6 +61,9 @@ function youtubeVideoUrl() {
             </div>
           </div>
         </div>
+        <div class="col-lg-7 align-items-center justify-content-center row" data-aos="fade-up" data-aos-delay="400">
+          <img src="../assets/images/screenshot-1280x720.png" alt="Image" class="img-fluid img-shadow" />
+        </div>
         <!-- <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
           <a :href="youtubeVideoUrl()" class="btn-video" data-fancybox>
             <span class="wrap-icon-play">

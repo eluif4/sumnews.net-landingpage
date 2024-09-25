@@ -13,7 +13,7 @@ const testimonials = [
     photo: "images/person_1.jpg",
   },
   {
-    name: "Sarah L.",
+    name: "Tanner L.",
     designation: "Marketing Manager",
     singleLiner: "Finally, a curated feed that actually understands what I care about",
     quote:
