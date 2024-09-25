@@ -4,7 +4,7 @@ import { themeColor } from "../data/items";
 
 const heroHeading = "It's not just News";
 const buttonSeeFeature = "See Features";
-const buttonApp = "About the App";
+const buttonApp = "Open the App";
 </script>
 
 <template>
@@ -37,13 +37,14 @@ const buttonApp = "About the App";
                 </p>
               </div>
               <p data-aos="fade-up" data-aos-delay="200">
-                <a id="btn-features" href="#features" class="btn btn-primary smoothscroll"
-                  style="margin: 0 5px 5px 0" :style="[
+                <!-- <a id="btn-features" href="#features" class="btn btn-primary smoothscroll" style="margin: 0 5px 5px 0"
+                  :style="[
                     { background: themeColor },
                     { borderColor: themeColor },
-                  ]">{{ buttonSeeFeature }}</a>
-                <a id="btn-app" href="#about-the-app-section" class="btn smoothscroll pricing"
-                  :style="[{ color: themeColor }, { borderColor: themeColor }]">{{ buttonApp }}</a>
+                  ]">{{ buttonSeeFeature }}</a> -->
+                <a id="btn-app" href="https://www.app.sumnews.net" class="btn smoothscroll pricing"
+                  style="margin: 0 5px 5px 0" :style="[{ color: themeColor }, { borderColor: themeColor }]">{{ buttonApp
+                  }}</a>
               </p>
             </div>
           </div>
