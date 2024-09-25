@@ -22,7 +22,7 @@ const buttonApp = "Open the App";
                 {{ heroHeading }}
                 <br>
                 It's
-                <a href="https://www.app.sumnews.net"><span class="bold">Sumnews</span></a>
+                <a href="https://app.sumnews.net"><span class="bold">Sumnews</span></a>
               </h1>
               <div class="excerpt" data-aos="fade-up" data-aos-delay="100">
                 <p>
@@ -42,7 +42,7 @@ const buttonApp = "Open the App";
                     { background: themeColor },
                     { borderColor: themeColor },
                   ]">{{ buttonSeeFeature }}</a> -->
-                <a id="btn-app" href="https://www.app.sumnews.net" class="btn smoothscroll pricing"
+                <a id="btn-app" href="https://app.sumnews.net" class="btn smoothscroll pricing"
                   style="margin: 0 5px 5px 0" :style="[{ color: themeColor }, { borderColor: themeColor }]">{{ buttonApp
                   }}</a>
               </p>

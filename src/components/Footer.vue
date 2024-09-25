@@ -56,7 +56,7 @@ const socialItems = [
           <div class="widget">
             <h3>{{ column2Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="https://www.app.sumnews.net">Sumnew.net App</a></li>
+              <li><a href="https://app.sumnews.net">Sumnew.net App</a></li>
             </ul>
           </div>
         </div>

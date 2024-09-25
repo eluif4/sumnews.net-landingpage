@@ -7,7 +7,7 @@ const contactInfo = {
     phone2: '404-505-5506',
     infoEmail: 'info@sumnews.net',
     supportEmail: 'support@sumnews.net',
-    website: 'https://www.app.sumnews.net/'
+    website: 'https://app.sumnews.net/'
 }
 
 export { themeColor, siteName, contactInfo }
