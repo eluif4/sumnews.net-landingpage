@@ -12,18 +12,17 @@ const labels = {
   message: "Message",
 };
 
-
 const socialItems = [
   {
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/sumnews_net",
     icon: "icon-instagram",
   },
   {
-    link: "https://www.twitter.com/",
+    link: "https://x.com/sumnewsdotnet",
     icon: "icon-twitter",
   },
   {
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/sumnews-net",
     icon: "icon-linkedin",
   }
 ];
@@ -169,5 +168,10 @@ const socialItems = [
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social-widgets li a:hover {
+  background: #739eff;
+  color: #ffffff;
 }
 </style>

@@ -61,7 +61,7 @@ function youtubeVideoUrl() {
             </div>
           </div>
         </div>
-        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
+        <!-- <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
           <a :href="youtubeVideoUrl()" class="btn-video" data-fancybox>
             <span class="wrap-icon-play">
               <svg class="bi bi-play-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
@@ -72,7 +72,7 @@ function youtubeVideoUrl() {
             </span>
             <img :src="mainPhoto" alt="Image" class="img-fluid img-shadow" />
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

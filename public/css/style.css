@@ -546,7 +546,8 @@ h4,
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #407BFF;
+  color: var(--main-color);
+  font-weight: bold;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -555,7 +556,8 @@ h4,
 }
 
 .site-mobile-menu .site-nav-wrap li>a.active {
-  color: #407BFF;
+  color: var(--main-color);
+  font-weight: bold;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {

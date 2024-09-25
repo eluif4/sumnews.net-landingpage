@@ -13,15 +13,15 @@ const connectHeading = "Find us on Social Media";
 
 const socialItems = [
   {
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/sumnews_net",
     icon: "icon-instagram",
   },
   {
-    link: "https://www.twitter.com/",
+    link: "https://x.com/sumnewsdotnet",
     icon: "icon-twitter",
   },
   {
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/sumnews-net",
     icon: "icon-linkedin",
   }
 ];
@@ -37,7 +37,7 @@ const socialItems = [
             <h3>{{ column1Heading }}</h3>
             <p>{{ column1Text }}</p>
           </div>
-          <div class="widget">
+          <!-- <div class="widget">
             <h3>{{ connectHeading }}</h3>
             <ul class="list-unstyled social">
               <li style="margin-right: 4px">
@@ -50,7 +50,7 @@ const socialItems = [
                 <a :href="socialItems[2].link"><span :class="socialItems[2].icon"></span></a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
         <div class="col-lg-2 ml-auto">
           <div class="widget">
