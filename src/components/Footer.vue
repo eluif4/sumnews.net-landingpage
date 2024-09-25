@@ -2,14 +2,14 @@
 import { contactInfo } from "../data/items";
 
 const copyrightText = "Copyright 2023, All rights reserved.";
-const column1Heading = "About Launch";
+const column1Heading = "About Sumnews.net";
 const column1Text =
-  "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.";
+  "Sumnews.net is a platform designed to simplify news consumption by providing users with concise, summarized articles. Its goal is to help users stay informed without spending too much time on lengthy news pieces. Sumnews curates personalized news feeds based on users' interests and offers daily recaps of the most important stories, making it easy for users to catch up on key topics quickly. Whether you're busy or just looking for efficient news delivery, Sumnews aims to provide a seamless, time-saving way to stay up to date.";
 const column2Heading = "Projects";
 const column3Heading = "Services";
 const column4Heading = "Contact";
 
-const connectHeading = "Connect";
+const connectHeading = "Find us on Social Media";
 
 const socialItems = [
   {
@@ -21,17 +21,9 @@ const socialItems = [
     icon: "icon-twitter",
   },
   {
-    link: "https://www.facebook.com/",
-    icon: "icon-facebook",
-  },
-  {
     link: "https://www.linkedin.com/",
     icon: "icon-linkedin",
-  },
-  {
-    link: "https://www.pinterest.com/",
-    icon: "icon-pinterest",
-  },
+  }
 ];
 </script>
 
@@ -49,29 +41,13 @@ const socialItems = [
             <h3>{{ connectHeading }}</h3>
             <ul class="list-unstyled social">
               <li style="margin-right: 4px">
-                <a :href="socialItems[0].link"
-                  ><span :class="socialItems[0].icon"></span
-                ></a>
+                <a :href="socialItems[0].link"><span :class="socialItems[0].icon"></span></a>
               </li>
               <li style="margin-right: 4px">
-                <a :href="socialItems[1].link"
-                  ><span :class="socialItems[1].icon"></span
-                ></a>
+                <a :href="socialItems[1].link"><span :class="socialItems[1].icon"></span></a>
               </li>
               <li style="margin-right: 4px">
-                <a :href="socialItems[2].link"
-                  ><span :class="socialItems[2].icon"></span
-                ></a>
-              </li>
-              <li style="margin-right: 4px">
-                <a :href="socialItems[3].link"
-                  ><span :class="socialItems[3].icon"></span
-                ></a>
-              </li>
-              <li>
-                <a :href="socialItems[4].link"
-                  ><span :class="socialItems[4].icon"></span
-                ></a>
+                <a :href="socialItems[2].link"><span :class="socialItems[2].icon"></span></a>
               </li>
             </ul>
           </div>
@@ -80,15 +56,11 @@ const socialItems = [
           <div class="widget">
             <h3>{{ column2Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="#">La Lega Stadium</a></li>
-              <li><a href="#">France Building</a></li>
-              <li><a href="#">22 New Homes</a></li>
-              <li><a href="#">Manage Center</a></li>
-              <li><a href="#">Sports Hall</a></li>
+              <li><a href="https://www.app.sumnews.net">Sumnew.net App</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-2">
+        <!-- <div class="col-lg-2">
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
@@ -98,13 +70,13 @@ const socialItems = [
               <li><a href="#">Consultancy</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
         <div class="col-lg-3">
           <div class="widget">
             <h3>{{ column4Heading }}</h3>
             <address>{{ contactInfo.address }}</address>
             <ul class="list-unstyled links mb-4">
-              <li>
+              <!-- <li>
                 <a :href="'tel://' + contactInfo.phone1">{{
                   contactInfo.phone1
                 }}</a>
@@ -113,11 +85,9 @@ const socialItems = [
                 <a :href="'tel://' + contactInfo.phone2">{{
                   contactInfo.phone2
                 }}</a>
-              </li>
+              </li> -->
               <li>
-                <a :href="'mailto:' + contactInfo.email"
-                  ><span>{{ contactInfo.email }}</span></a
-                >
+                <a :href="'mailto:' + contactInfo.email"><span>{{ contactInfo.supportEmail }}</span></a>
               </li>
             </ul>
           </div>

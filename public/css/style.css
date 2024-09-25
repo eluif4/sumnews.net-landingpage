@@ -431,7 +431,8 @@ h4,
 }
 
 .site-nav.scrolled .site-navigation .site-menu li a.active {
-  color: #407BFF;
+  color: var(--main-color);
+  font-weight: bold;
 }
 
 .site-mobile-menu-close {
@@ -734,7 +735,7 @@ h4,
 
 @media (max-width: 991.98px) {
   .untree_co-hero .heading {
-    font-size: 50px;
+    font-size: 9vw;
   }
 }
 
@@ -744,7 +745,7 @@ h4,
   height: 200%;
 }
 
-.untree_co-hero .dots:before {
+/* .untree_co-hero .dots:before {
   z-index: -1;
   right: 0;
   -webkit-transform: translateX(60%);
@@ -754,8 +755,8 @@ h4,
   content: "";
   width: 304px;
   height: 264px;
-  background: url("../images/dots.png") right top;
-}
+  background: url("../../src/assets/images/bgswirls.svg") right top;
+} */
 
 .untree_co-hero .excerpt {
   margin-bottom: 30px;
@@ -925,7 +926,7 @@ h4,
   bottom: 0;
   top: 0;
   width: 4px;
-  background: #407BFF;
+  background: #62febd;
 }
 
 .pricing-title {
@@ -1189,7 +1190,7 @@ h4,
 
 .cusotm-slider-nav:hover {
   color: #ffffff;
-  background: #407BFF;
+  background: var(--main-color);
 }
 
 .ul-links li {
@@ -1360,7 +1361,7 @@ h4,
 }
 
 .ul-check.primary li:before {
-  color: #407BFF;
+  color: #7dd41e;
 }
 
 .ul-check.white li:before {

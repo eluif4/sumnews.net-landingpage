@@ -5,7 +5,7 @@ import { themeColor, siteName } from "../data/items";
   <nav class="site-nav dark js-site-navbar mb-5 site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a href="" class="logo m-0 float-left">{{ siteName }}<span class="text-primary">.</span></a>
+        <a href="" class="logo m-0 float-left">{{ siteName }}<span class="text-primary"></span></a>
         <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-left">
           <li class="active">
             <a href="#home-section" class="nav-link">Home</a>
@@ -22,8 +22,9 @@ import { themeColor, siteName } from "../data/items";
               <li><a href="#" class="nav-link">Menu Three</a></li>
             </ul>
           </li> -->
+          <li><a href="#about-the-app-section" class="nav-link">About the App</a></li>
           <li><a href="#features-section" class="nav-link">Features</a></li>
-          <li><a href="#pricing-section" class="nav-link">Socials</a></li>
+          <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
           <li><a href="#about-section" class="nav-link">About</a></li>
           <li><a href="#contact-section" class="nav-link">Contact</a></li>
         </ul>
