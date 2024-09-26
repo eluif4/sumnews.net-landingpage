@@ -16,20 +16,6 @@
   <link rel="stylesheet" href="/css/aos.css" />
   <link rel="stylesheet" href="/css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Alef&family=Bitter&display=swap" rel="stylesheet">
-
-  <script>
-    if ('serviceWorker' in navigator) {
-      // Check if a service worker is controlling the page
-      navigator.serviceWorker.getRegistrations().then(function (registrations) {
-        for (let registration of registrations) {
-          // Unregister all service workers
-          registration.unregister();
-        }
-      }).catch(function (error) {
-        console.error('Service worker unregistration failed:', error);
-      });
-    }
-  </script>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
