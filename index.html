@@ -19,35 +19,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
-  <script>
-    // Function to unregister service workers
-    const unregisterServiceWorkers = () => {
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.getRegistrations().then((registrations) => {
-          registrations.forEach((registration) => {
-            registration.unregister().then(() => {
-              console.log('Service Worker unregistered:', registration);
-            }).catch((error) => {
-              console.error('Service Worker unregistering failed:', error);
-            });
-          });
-        }).catch((error) => {
-          console.error('Service Worker registration fetching failed:', error);
-        });
-      }
-    };
-
-    // Check if we already processed the unregistration
-    if (!localStorage.getItem('serviceWorkerUnregistered')) {
-      unregisterServiceWorkers();
-
-      // Set a flag in local storage to prevent repeated unregistration
-      localStorage.setItem('serviceWorkerUnregistered', 'true');
-
-      // Reload the page after unregistration
-      window.location.reload(true); // This reloads the page without using the cache
-    }
-  </script>
   <div class="lines-wrap">
     <div class="lines-inner">
       <div class="lines"></div>
