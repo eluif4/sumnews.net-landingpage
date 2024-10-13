@@ -41,7 +41,7 @@ const socialItems = [
         <div class="col-lg-7">
           <h3 class="bold">Generl Inquiries</h3>
           <p>Have questions, feedback, or just want to say hello? We'd love to hear from you! You can reach us via email
-            at <a :href="'mailto:' + contactInfo.infoEmail">info@sumnews.net</a></p>
+            at <a :href="'mailto:' + contactInfo.infoEmail">support@sumnews.net</a></p>
           <h3 class="bold">Customers Support</h3>
           <p>
             If you require assistance or have specific queries related to the Sumnews.net platform, our customer
@@ -112,10 +112,10 @@ const socialItems = [
               <a :href="'tel://' + contactInfo.phone2" class="d-flex"><span class="mt-1 icon-phone mr-2"></span><span>{{
                 contactInfo.phone2 }}</span></a>
             </li> -->
-            <li>
+            <!-- <li>
               <a :href="'mailto:' + contactInfo.infoEmail" class="d-flex"><span
                   class="mt-1 icon-envelope mr-2"></span><span>{{ contactInfo.infoEmail }}</span></a>
-            </li>
+            </li> -->
             <li>
               <a :href="'mailto:' + contactInfo.supportEmail" class="d-flex"><span
                   class="mt-1 icon-envelope mr-2"></span><span>{{ contactInfo.supportEmail }}</span></a>

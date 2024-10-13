@@ -4,7 +4,7 @@ import personPhoto from "../assets/images/person_1.jpg";
 import mainPhoto from "../assets/images/service1.jpg";
 
 const service1Heading = "About the App";
-const service1SubHeading = "Access Sumnews.net on PC or Mobile";
+const service1SubHeading = "Welcome to Sumnews";
 const service1Quote =
   '"Sumnews has transformed how I stay updated. It’s incredibly easy to use and keeps me informed without the hassle. The perfect solution for anyone who wants quick, summarized news on the go."';
 
@@ -30,18 +30,12 @@ function youtubeVideoUrl() {
           </h3>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
             <p>
-              We've made it easy to read summarized articles and catch up on the latest and hottest infomartion through
-              our <span class="quote">mobile app</span> and <span class="quote">onine website</span>
+              In a world filled with information, it’s easy to feel overwhelmed. That’s where Sumnews.net comes in.
+              We’re here to simplify your news experience by providing you with the most important headlines, summarized
+              for quick and easy consumption. Whether you're on the go or just want the facts without the fluff,
+              Sumnews.net delivers personalized news tailored to your interests—making it easier to stay informed and in
+              control of your time.
             </p>
-            <p>Check us out on the: </p>
-            <ul class="list-unstyled ul-check primary">
-              <li><a :href="websiteLink">Web</a></li>
-              <li><a :href="googlePlayLink">Google Play Store</a></li>
-            </ul>
-            <p>Coming soon to: </p>
-            <ul class="list-unstyled ul-red-x primary">
-              <li><a :href="appStoreLink">App Store</a></li>
-            </ul>
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="untree_co-testimonial d-flex">
@@ -62,7 +56,14 @@ function youtubeVideoUrl() {
           </div>
         </div>
         <div class="col-lg-7 align-items-center justify-content-center row" data-aos="fade-up" data-aos-delay="400">
-          <img src="../assets/images/screenshot-1280x720.png" alt="Image" class="img-fluid img-shadow" />
+          <div class="video-container">
+            <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/BggyW8UGmxw?si=yy_ddF79tyjoD3lQ&autoplay=1&mute=1"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+          </div>
         </div>
         <!-- <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
           <a :href="youtubeVideoUrl()" class="btn-video" data-fancybox>
